@@ -27,3 +27,6 @@ option = streamlit.selectbox(
     'Pick a sweatsuit color or style:',
     list(color_list)
     )
+
+# Add image caption
+product_caption = 'Our warm, comfortable, ' + option + ' sweatsuit!'
